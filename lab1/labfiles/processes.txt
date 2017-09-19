@@ -1,0 +1,50 @@
+root         1     0  0 21:53 ?        00:00:00 /sbin/init
+root         2     0  0 21:53 ?        00:00:00 [kthreadd]
+root         3     2  0 21:53 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 21:53 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 21:53 ?        00:00:00 [kworker/u:0]
+root         7     2  0 21:53 ?        00:00:00 [kworker/u:0H]
+root         8     2  0 21:53 ?        00:00:00 [migration/0]
+root         9     2  0 21:53 ?        00:00:00 [rcu_preempt]
+root        10     2  0 21:53 ?        00:00:00 [rcu_bh]
+root        11     2  0 21:53 ?        00:00:00 [rcu_sched]
+root        12     2  0 21:53 ?        00:00:00 [watchdog/0]
+root        13     2  0 21:53 ?        00:00:00 [khelper]
+root        14     2  0 21:53 ?        00:00:00 [kdevtmpfs]
+root        15     2  0 21:53 ?        00:00:00 [netns]
+root        16     2  0 21:53 ?        00:00:00 [bdi-default]
+root        17     2  0 21:53 ?        00:00:00 [kblockd]
+root        18     2  0 21:53 ?        00:00:01 [kworker/0:1]
+root        19     2  0 21:53 ?        00:00:00 [khungtaskd]
+root        20     2  0 21:53 ?        00:00:00 [kswapd0]
+root        21     2  0 21:53 ?        00:00:00 [ksmd]
+root        22     2  0 21:53 ?        00:00:00 [khugepaged]
+root        23     2  0 21:53 ?        00:00:00 [fsnotify_mark]
+root        24     2  0 21:53 ?        00:00:00 [crypto]
+root        28     2  0 21:53 ?        00:00:00 [kthrotld]
+root        29     2  0 21:53 ?        00:00:00 [deferwq]
+root        30     2  0 21:53 ?        00:00:00 [kworker/u:1]
+root        46     2  0 21:53 ?        00:00:00 [khubd]
+root        47     2  0 21:53 ?        00:00:00 [ata_sff]
+root        48     2  0 21:53 ?        00:00:00 [scsi_eh_0]
+root        49     2  0 21:53 ?        00:00:00 [scsi_eh_1]
+root        52     2  0 21:53 ?        00:00:00 [vballoon]
+root        61     2  0 21:53 ?        00:00:00 [kworker/0:1H]
+root        70     2  0 21:53 ?        00:00:00 [jbd2/sda2-8]
+root        71     2  0 21:53 ?        00:00:00 [ext4-dio-unwrit]
+root        95     1  0 21:53 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root       108     1  0 21:53 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root       123     2  0 21:53 ?        00:00:00 [kpsmoused]
+root       154     2  0 21:53 ?        00:00:00 [jbd2/sda1-8]
+root       155     2  0 21:53 ?        00:00:00 [ext4-dio-unwrit]
+root       164     1  0 21:53 ?        00:00:00 /usr/bin/sshd -D
+root       165     1  0 21:53 ?        00:00:00 /usr/bin/syslog-ng -F
+dbus       167     1  0 21:53 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       169     1  0 21:53 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root       172     1  0 21:53 ?        00:00:00 login -- arch     
+root       304     1  0 21:53 ?        00:00:00 dhcpcd
+arch       307   172  0 21:53 tty1     00:00:00 -bash
+root       385     2  0 22:18 ?        00:00:00 [kworker/0:0]
+root       394     2  0 22:23 ?        00:00:00 [flush-8:0]
+root       410     2  0 22:28 ?        00:00:00 [kworker/0:2]
+arch       411   307  0 22:28 tty1     00:00:00 ps -ef
