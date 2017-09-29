@@ -1,6 +1,6 @@
 # this python script is for Q7 -Cloud computing lab 2
 #The following lab is for cloud computing lab 2 - Q6
-import re
+
 
 import requests
 import sqlite3
@@ -89,11 +89,7 @@ for row in result:
 
 index = str(listofspecies[1])
 #clean the output
-for c in index:
-    if c != '2':
-        continue
-    else:
-        num = c
+num = index[0]
 winner = findSpecie(num)
 print('The Specie that appears second most in movies is: ', winner)
 
