@@ -89,7 +89,7 @@ for row in result:
 
 index = str(listofspecies[1])
 #clean the output
-num = index[0]
+num = index[1]
 winner = findSpecie(num)
 print('The Specie that appears second most in movies is: ', winner)
 
