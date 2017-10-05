@@ -8,6 +8,7 @@ function species(){
 #	echo "species $1" >> species.txt
 	curl $1 | jq '.results[] | {specie:.classification,numFilms:.films | length} | flatten' >> species.txt
 
+	curl $1 | jq '.results[] | {s:.classification,numFilms:.films |length}'| jq -s -c 'sort_by(.films) | .[] ' >> results.txt
 	#will return the number of species per film
 }
 
@@ -66,15 +67,12 @@ echo "artificial:$a2" >> s.txt
 s=$(grep -o 'sentient' species.txt | wc -l)
 echo "sentiant:$s" >> s.txt
 
-cat s.txt  
+cat s.txt
 rm s.txt
 
-
-
-
-
-
-
+echo "The specie that appears most and second most are:"
+y=$(grep -Eo '[0-9]+' results.txt | sort -rn | head -n 1)
+cat results.txt | grep $y results.txt 
 
 rm species.txt
-
+rm results.txt
