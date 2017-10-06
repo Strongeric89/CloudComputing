@@ -59,15 +59,3 @@ for item in listOfLandSpeeders:
             s = 'Vehicle: {},\tSpeed:{}'.format(key, value)
 print('The fastest land vehicle is: ', s)
 
-
-
-
-
-
-
-
-
-
-
-
-
