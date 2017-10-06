@@ -2,8 +2,6 @@
 import requests
 
 
-
-
 numberofRecords = 0
 pageNumber = 1 # for part 1
 
@@ -23,8 +21,6 @@ while(True):
         numberofRecords += 1
 
 
-
-
     next = page.json().get('next')
 
     message = page.json().get('next')
@@ -37,23 +33,7 @@ while(True):
     # print(message)
     # print(page)
 
-
 #part 1
 print('The number of pages is:', pageNumber)
 print('The number of records is:', numberofRecords)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
