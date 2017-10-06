@@ -20,7 +20,7 @@ do
 	
 	curl $u | jq '. | {name:.name,ships:[.starships]} ' >> answer9.txt
 done < urls.txt	
-	curl $1 | jq '.results[] | {name:.name,cost:.cost_in_credits,pilots:[.pilots]}'| jq 'if .pilots == [] then empty else . end'| jq 'flatten' >> answer9.txt
+	curl $1 | jq '.results[] | {name:.name,cost:.cost_in_credits,pilots:[.pilots]}'| jq 'if .pilots == [] then empty else . end' >> answer9.txt
 	
 #will return the number of species per film
 }
